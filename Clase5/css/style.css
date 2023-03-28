@@ -1,0 +1,37 @@
+.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.col-izq{
+    background-color: rgb(126, 124, 124);
+    min-height: 600px;
+}
+
+.letra-blanco{
+    color: snow;
+    text-decoration: none;
+}
+
+.letra-blanco:hover{
+    color: snow;
+}
+
+.letra-blanco:hover .fa-solid{
+    transition: all 1s;
+    transform: rotate(360deg);
+    font-size: 20px;
+}
+
+.letra-blanco:hover .fa-brands{
+    transition: all 1s;
+    transform: rotate(360deg);
+    font-size: 20px;
+}
+
+.perfil{
+    background-image: url("../img/giphy.gif");
+    background-size: cover;
+    background-position: center;
+}
